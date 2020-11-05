@@ -98,7 +98,15 @@ $(function(){
     }
 
     $(document.body).on('click', "input:radio", function(e) {
+      
+      const node = $.ui.fancytree.getNode(e);
+      const parentId = node.parent.data.term_id;
       const id = e.target.getAttribute('name').split('-')[1];
       selectedOptions[id] = e.target.value;
+      makeRequest({
+        nodeId: id,
+        parentId: parentId,
+        selectedOption: selectedOptions[id]
+      })
     })
 });
