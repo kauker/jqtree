@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  <title>Fancytree - Example: Drag'n'drop</title>
+
+  <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+  <link href="//cdn.jsdelivr.net/npm/jquery.fancytree@2.27/dist/skin-win8/ui.fancytree.min.css" rel="stylesheet">
+  <script src="//cdn.jsdelivr.net/npm/jquery.fancytree@2.27/dist/jquery.fancytree-all.min.js"></script>
+  <script src="script.js"></script>
+
+
+<style type="text/css">
+  #draggableSample, #droppableSample {
+    height:100px;
+    padding:0.5em;
+    width:150px;
+    border:1px solid #AAAAAA;
+  }
+  #draggableSample {
+    background-color: silver;
+    color:#222222;
+  }
+  #droppableSample {
+    background-color: maroon;
+    color: white;
+  }
+  #droppableSample.drophover {
+    border: 1px solid green;
+  }
+</style>
+</head>
+<body class="example">
+
+  <!-- Add a <table> element where the tree should appear: -->
+  <div id="tree" class="fancytree-connectors">
+  </div>
+  <div id="log"></div>
+
+  <!-- (Irrelevant source removed.) -->
+</body>
+</html>

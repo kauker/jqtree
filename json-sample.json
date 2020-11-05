@@ -1,0 +1,270 @@
+{
+    "2": {
+        "term_id": 2,
+        "name": "Cleaning",
+        "description": "this is the cleaning description that would you see at the end when you submit task.",
+        "append_name": "- $10",
+        "access": "private",
+        "icon_url": "http://",
+        "children": {
+            "16": {
+                "term_id": 16,
+                "name": "My Amenities",
+                "description": "public",
+                "access": "public",
+                "children": {
+                    "34": {
+                        "term_id": 34,
+                        "name": "Equipment",
+                        "description": "",
+                        "access": "private",
+                        "children": []
+                    },
+                    "32": {
+                        "term_id": 32,
+                        "name": "Mop",
+                        "description": "",
+                        "access": "private",
+                        "children": []
+                    },
+                    "35": {
+                        "term_id": 35,
+                        "name": "Other",
+                        "description": "",
+                        "access": "private",
+                        "children": []
+                    },
+                    "31": {
+                        "term_id": 31,
+                        "name": "Vacuum",
+                        "description": "",
+                        "access": "private",
+                        "children": []
+                    }
+                }
+            },
+            "13": {
+                "term_id": 13,
+                "name": "My Building",
+                "description": "public",
+                "access": "public",
+                "children": []
+            },
+            "15": {
+                "term_id": 15,
+                "name": "My Floor",
+                "description": "public",
+                "access": "public",
+                "children": {
+                    "33": {
+                        "term_id": 33,
+                        "name": "Mop",
+                        "description": "",
+                        "access": "private",
+                        "children": []
+                    },
+                    "36": {
+                        "term_id": 36,
+                        "name": "Other",
+                        "description": "",
+                        "access": "private",
+                        "children": []
+                    },
+                    "30": {
+                        "term_id": 30,
+                        "name": "Vacuum",
+                        "description": "",
+                        "access": "private",
+                        "children": []
+                    }
+                }
+            },
+            "14": {
+                "term_id": 14,
+                "name": "My Unit",
+                "description": "",
+                "access": "private",
+                "children": []
+            }
+        }
+    },
+    "29": {
+        "term_id": 29,
+        "name": "Community",
+        "description": "",
+        "access": "locked",
+        "icon_url": "http://",
+        "children": []
+    },
+    "3": {
+        "term_id": 3,
+        "name": "Maintenance",
+        "description": "this is the maintenance description you would see at the end when submitting task.",
+        "access": "private",
+        "icon_url": "http://",
+        "children": {
+            "12": {
+                "term_id": 12,
+                "name": "My Amenities",
+                "description": "public",
+                "access": "private",
+                "children": []
+            },
+            "9": {
+                "term_id": 9,
+                "name": "My Building",
+                "description": "public",
+                "access": "private",
+                "children": []
+            },
+            "11": {
+                "term_id": 11,
+                "name": "My Floor",
+                "description": "public",
+                "access": "private",
+                "children": {
+                    "37": {
+                        "term_id": 37,
+                        "name": "Light Out",
+                        "description": "",
+                        "access": "private",
+                        "children": []
+                    }
+                }
+            },
+            "10": {
+                "term_id": 10,
+                "name": "My Unit",
+                "description": "",
+                "access": "private",
+                "children": []
+            }
+        }
+    },
+    "28": {
+        "term_id": 28,
+        "name": "Packages",
+        "description": "",
+        "access": "locked",
+        "icon_url": "http://",
+        "children": []
+    },
+    "4": {
+        "term_id": 4,
+        "name": "Security",
+        "description": "this is the security description you would see at the end when submitting task.",
+        "access": "private",
+        "icon_url": "http://",
+        "children": {
+            "5": {
+                "term_id": 5,
+                "name": "My Amenities",
+                "description": "",
+                "access": "private",
+                "children": {
+                    "18": {
+                        "term_id": 18,
+                        "name": "Trespasser",
+                        "description": "",
+                        "access": "private",
+                        "children": []
+                    },
+                    "17": {
+                        "term_id": 17,
+                        "name": "Unauthorized Trainer",
+                        "description": "",
+                        "access": "private",
+                        "children": []
+                    }
+                }
+            },
+            "8": {
+                "term_id": 8,
+                "name": "My Building",
+                "description": "",
+                "access": "private",
+                "children": []
+            },
+            "6": {
+                "term_id": 6,
+                "name": "My Floor",
+                "description": "",
+                "access": "private",
+                "children": {
+                    "19": {
+                        "term_id": 19,
+                        "name": "Noise",
+                        "description": "",
+                        "access": "private",
+                        "children": []
+                    },
+                    "20": {
+                        "term_id": 20,
+                        "name": "Rule Broken",
+                        "description": "",
+                        "access": "private",
+                        "children": {
+                            "26": {
+                                "term_id": 26,
+                                "name": "Drinking",
+                                "description": "",
+                                "access": "private",
+                                "children": []
+                            },
+                            "25": {
+                                "term_id": 25,
+                                "name": "Drugs",
+                                "description": "",
+                                "access": "private",
+                                "children": []
+                            },
+                            "24": {
+                                "term_id": 24,
+                                "name": "Smoking",
+                                "description": "",
+                                "access": "private",
+                                "children": []
+                            }
+                        }
+                    },
+                    "21": {
+                        "term_id": 21,
+                        "name": "Smell",
+                        "description": "",
+                        "access": "private",
+                        "children": {
+                            "23": {
+                                "term_id": 23,
+                                "name": "Smoke",
+                                "description": "",
+                                "access": "private",
+                                "children": []
+                            },
+                            "27": {
+                                "term_id": 27,
+                                "name": "Unknown",
+                                "description": "",
+                                "access": "private",
+                                "children": []
+                            }
+                        }
+                    },
+                    "22": {
+                        "term_id": 22,
+                        "name": "Water",
+                        "description": "",
+                        "access": "private",
+                        "children": []
+                    }
+                }
+            },
+            "7": {
+                "term_id": 7,
+                "name": "My Unit",
+                "description": "",
+                "access": "private",
+                "children": []
+            }
+        }
+    }
+}
