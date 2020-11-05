@@ -11,6 +11,11 @@ $(function(){
     function transform(obj) {
       return Object.keys(obj).map(function(key) {
         const result = obj[key];
+
+        if (obj[key]['selectedOption']) {
+          selectedOptions[obj[key]['term_id']] = obj[key]['selectedOption'];
+        }
+        
         result['title'] = obj[key]['name'] + makeRadioButtons(obj[key]['term_id']);
         result['key'] = obj[key]['term_id'];
         if (obj[key]['children']) {
