@@ -44,6 +44,9 @@ $(function(){
             /** This function MUST be defined to enable dragging for the tree.
              *  Return false to cancel dragging of node.
              */
+            if (data.otherNode.data.move === 'fixed') {
+              return false
+            }
             return true;
           },
           dragEnter: function(node, data) {
@@ -84,9 +87,6 @@ $(function(){
         },
         activate: function(event, data) {
   //        alert("activate " + data.node);
-        },
-        lazyLoad: function(event, data) {
-          data.result = {url: "ajax-sub2.json"}
         }
       });
     }
