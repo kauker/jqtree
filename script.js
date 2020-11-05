@@ -15,7 +15,7 @@ $(function(){
         if (obj[key]['selectedOption']) {
           selectedOptions[obj[key]['term_id']] = obj[key]['selectedOption'];
         }
-        
+
         result['title'] = obj[key]['name'] + makeRadioButtons(obj[key]['term_id']);
         result['key'] = obj[key]['term_id'];
         if (obj[key]['children']) {
@@ -49,7 +49,7 @@ $(function(){
             /** This function MUST be defined to enable dragging for the tree.
              *  Return false to cancel dragging of node.
              */
-            if (data.otherNode.data.move === 'fixed') {
+            if (data.node.data.move === 'fixed') {
               return false
             }
             return true;
